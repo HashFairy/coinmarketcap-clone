@@ -1,0 +1,162 @@
+
+
+.coin-logo{
+    height: 24px;
+    width: 24px;
+ 
+}
+
+
+
+.Coinheader{
+    border-collapse: collapse;
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-top: 40px;
+}
+
+
+
+.Coinheader tr{
+border-top: 1px solid rgba(231, 228, 228, 0.829);
+height: 50px;
+        
+}
+
+
+.Coinheader td {
+    box-sizing:border-box;
+    padding: 10px;
+
+}
+/*number css below*/
+.Coinheader td:nth-child(1) {
+    
+    Width:50px;
+    min-width:auto;
+    max-width:auto;
+}
+/*Image*/
+.Coinheader td:nth-child(2) {
+   
+    width:50px;
+    min-width:auto;
+    max-width:auto;
+   text-align: left;
+   font-size: 14px;
+   font-weight: bold;
+   
+}
+/*Crypto Name */
+.Coinheader td:nth-child(3) {
+
+   width:84px;
+   min-width:auto;
+   max-width:auto;
+   padding: 0;
+   text-align: left;
+   font-size: 12px;
+   font-weight: bold;
+   font-family:Arial, Helvetica, sans-serif
+   
+}
+.Coinheader td:nth-child(5) {
+    width:84px;
+   min-width:auto;
+   max-width:auto;
+   text-align: right;  
+}
+.Coinheader td:nth-child(6) {
+    width:200px;
+    min-width:auto;
+    max-width:auto;
+   text-align: right;  
+}
+.Coinheader td:nth-child(7) {
+width:200px;
+    min-width:auto;
+    max-width:auto;
+   width: 15%;
+   text-align: right;  
+}
+.Coinheader td:nth-child(8) {
+    width:200px;
+    min-width:auto;
+    max-width:auto;
+    padding: 5px;
+   text-align: right;
+   text-transform: uppercase;
+}
+.Coinheader td:nth-child(9) {
+   padding: 1px;
+   text-align: left;
+   text-transform: uppercase;
+}
+
+
+.symbol{
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(172, 167, 167);
+    font-size: 14px;
+    font-weight: bold;
+    width:5px;
+    padding: 0px;
+
+ 
+}
+
+.Coinheader th {
+    padding: 11px 10px;
+  
+}
+.rank{
+  
+    text-align: left;
+    width: 15px;
+    padding: 11px;
+}
+
+.Name{
+    position: relative;
+    left:45px;
+    
+}
+
+.CurrentPrice{
+    
+    position: relative;
+    left:195px;
+    text-align: right;
+}
+
+.Marketcap{
+  
+    position: relative;
+    left:295px;
+    text-align: right;
+}
+
+.Volume{
+    
+    position: relative;
+    left:349px;
+   
+
+    text-align: right;
+}
+
+.Circulatingsupply{
+    position: relative;
+    left:400px;
+    text-align: right;
+}
+.HeaderTitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+
+}

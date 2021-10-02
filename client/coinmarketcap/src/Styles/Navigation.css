@@ -1,0 +1,20 @@
+.size {
+ 
+  max-width: 12%;
+  height: auto;
+}
+
+.NavMenu {
+  
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  
+}
+
+.NavMenu p {
+  margin: 0.7%;
+  font-size: medium;
+  font-weight: 500;
+  font-family: Arial;
+}
