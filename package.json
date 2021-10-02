@@ -1,0 +1,33 @@
+{
+  "name": "coinmarketcap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HashFairy/coinmarketcap-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HashFairy/coinmarketcap-clone/issues"
+  },
+  "homepage": "https://github.com/HashFairy/coinmarketcap-clone#readme",
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.12",
+    "sass": "^1.38.2"
+  }
+}
